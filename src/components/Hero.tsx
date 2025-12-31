@@ -61,8 +61,12 @@ export default function Hero() {
               <div className="relative bg-gradient-to-br from-emerald-400 to-teal-500 rounded-3xl p-1 shadow-2xl">
                 <div className="bg-white rounded-3xl p-8 h-full flex items-center justify-center">
                   <div className="text-center space-y-4">
-                    <div className="w-32 h-32 mx-auto bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center">
-                      <GraduationCap size={64} className="text-white" />
+                    <div className="w-32 h-32 mx-auto rounded-full overflow-hidden">
+                      <img
+                        src="https://i.imgur.com/mbhSXuB.jpeg"
+                        alt="Yugara Weerawardhana"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div className="space-y-2">
                       <h3 className="text-2xl font-bold text-gray-900">BHS (Hons)</h3>
